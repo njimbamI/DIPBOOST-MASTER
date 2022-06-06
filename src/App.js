@@ -4,10 +4,12 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import About from "./pages/About";
+import Competences from "./pages/Competences";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Notfound from "./pages/Notfound";
+import Porfolio from "./pages/Porfolio";
+
 
 function App() {
   return (
@@ -15,7 +17,8 @@ function App() {
     <Routes>
      <Route path="/" element ={<Home/>}/>
      <Route path="contact" element ={<Contact/>}/>
-     <Route path="a-propos" element ={<About/>}/>
+     <Route path="competences" element ={<Competences/>}/>
+     <Route path="portfolio" element ={<Porfolio/>}/>
      <Route path="*" element={<Notfound/>}/>
     </Routes>
   </BrowserRouter>

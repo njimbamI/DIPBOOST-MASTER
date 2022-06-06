@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+ .card{  @apply text-black hover:text-white pb-8}
+ .img{
+     @apply  rounded-full shadow-md w-32 shadow-black border-double border-4 border-indigo-400
+ }
+.bolo{
+    @apply hover:translate-x-2 text-justify py-4
+}
+.main{
+    @apply bg-gradient-to-r from-cyan-500 to-blue-500 rounded-3xl container mx-auto my-5 grid grid-rows-3 w-1/5 text-center justify-center items-center
+    
+}
+.contenu{
+    @apply my-5 font-bold bg-gradient-to-l  text-white container ml-2 from-cyan-500 to-blue-500 rounded-3xl w-4/5
+}
+
+.h1{
+    @apply text-center uppercase text-lg
+}
+.port{
+    @apply bg-cyan-800 text-white rounded-xl shadow-lg shadow-black hover:scale-95
+}
