@@ -19,12 +19,10 @@ const Porfolio = () => {
     };
 
    
-
-
     return (
         <div className='flex text-center'>
             <Navigation />
-            <div className='grid grid-cols-3 ml-3 w-4/5 gap-4 my-6 '>
+            <div className='grid grid-cols-3 ml-3 w-4/5 gap-2 my-6 '>
                 <div className='port'>
                     <h1>Agence de marketing digital</h1>
                     <img src='logo192.png' alt='l' />

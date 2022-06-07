@@ -15,11 +15,11 @@
     
 }
 .contenu{
-    @apply my-5 font-bold bg-gradient-to-l  text-white container ml-2 from-cyan-500 to-blue-500 rounded-3xl w-4/5
+    @apply my-5 font-bold bg-gradient-to-l  text-white container ml-2 from-cyan-500 to-blue-500 rounded-3xl w-4/5 py-28
 }
 
 .h1{
-    @apply text-center uppercase text-lg
+    @apply text-center uppercase text-lg font-bold
 }
 .port{
     @apply bg-cyan-800 text-white rounded-xl shadow-lg shadow-black hover:scale-95

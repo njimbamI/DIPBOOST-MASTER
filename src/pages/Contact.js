@@ -13,10 +13,10 @@ const Contact = () => {
     return (
         <div className='flex '>
             <Navigation />
-            <div className='w-4/5 pt-44'>
-                <div className=''>
-                    <h1 className='text-center'>Contactez moi</h1>
-                    <ul className='justify-center'>
+            <div className='contenu'>
+                <div className='flex flex-row justify-center items-center py-24'>
+                    <ul className='bg-slate-700 rounded-lg drop-shadow-2xl p-10'>
+                    <h1 className='pb-5 text-center uppercase text-lg font-bold'>Contactez moi</h1>
                         <li> <FontAwesomeIcon className='px-2' icon={faMap} />Pontoise</li>
                         <li> <FontAwesomeIcon className='px-2' icon={faMobileAlt} />
                             <CopyToClipboard text='0778700224'>
@@ -30,24 +30,24 @@ const Contact = () => {
                         </li>
                     </ul>
                 </div>
-                <div className='mt-20'>
-                    <ul className='flex itelms-center justify-center'>
+                <div className='pt-10'>
+                    <ul className='flex items-center justify-center'>
                         <li className='pr-3'>
                             <a href='dipboost.com'>
-                           <h4>Linkedin</h4> 
-                           <FontAwesomeIcon icon={faLinkedin} />
+                                <h4>Linkedin</h4>
+                                <FontAwesomeIcon icon={faLinkedin} />
                             </a>
                         </li>
                         <li className='pr-3'>
                             <a href='google.com' target='' rel=''>
-                          <h4> Twitter</h4>
-                          <FontAwesomeIcon icon={faTwitter} />
+                                <h4> Twitter</h4>
+                                <FontAwesomeIcon icon={faTwitter} />
                             </a>
                         </li>
                         <li>
                             <a href='dipboost.com' >
-                            <h4>  Github</h4>
-                            <FontAwesomeIcon icon={faGithub} />
+                                <h4>  Github</h4>
+                                <FontAwesomeIcon icon={faGithub} />
                             </a>
                         </li>
                     </ul>

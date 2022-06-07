@@ -8,8 +8,8 @@ const Navigation = () => {
     return (
         <div className='main'>
             <div>
-                <img src='' className='img' alt='bolo' />
-                <span className=''>Njimbam </span>
+                <img src='bolo.jpeg' className='img' alt='bolo' />
+                <span className='h1'>Njimbam </span>
             </div>
             <div>
                 <nav>
