@@ -29,13 +29,13 @@ const Navigation = () => {
             <div>
                 <ul className='flex items-center sm:grid-rows-none'>
                     <li>
-                        <a href='dipboost.com'><FontAwesomeIcon className=' hover:text-white' icon={faLinkedin}/></a>
+                        <a href='https://www.linkedin.com/in/ibrahim-moubarak-njimbam-b8b286168/'  target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className='px-2 hover:text-white' icon={faLinkedin}/></a>
                     </li>
                     <li>
-                        <a href='dipboost.com'><FontAwesomeIcon className='px-2 hover:text-white' icon={faTwitter}/></a>
+                        <a href='dipboost.com' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className='px-2 hover:text-white' icon={faTwitter}/></a>
                     </li>
                     <li>
-                        <a href='dipboost.com' ><FontAwesomeIcon className='px-2 hover:text-white' icon={faGithub}/></a>
+                        <a href='https://github.com/njimbamI' target="_blank" rel="noopener noreferrer"  ><FontAwesomeIcon className='px-2 hover:text-white' icon={faGithub}/></a>
                     </li>
                    
                 </ul>

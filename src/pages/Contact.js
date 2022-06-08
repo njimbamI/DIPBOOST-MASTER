@@ -15,7 +15,7 @@ const Contact = () => {
             <Navigation />
             <div className='contenu'>
                 <div className='flex flex-row justify-center items-center py-24'>
-                    <ul className='bg-slate-700 rounded-lg drop-shadow-2xl p-10'>
+                    <ul className='bg-black rounded-lg drop-shadow-2xl p-10'>
                     <h1 className='pb-5 text-center uppercase text-lg font-bold'>Contactez moi</h1>
                         <li> <FontAwesomeIcon className='px-2' icon={faMap} />Pontoise</li>
                         <li> <FontAwesomeIcon className='px-2' icon={faMobileAlt} />
@@ -33,19 +33,19 @@ const Contact = () => {
                 <div className='pt-10'>
                     <ul className='flex items-center justify-center'>
                         <li className='pr-3'>
-                            <a href='dipboost.com'>
+                            <a href='https://www.linkedin.com/in/ibrahim-moubarak-njimbam-b8b286168/'target="_blank" rel="noopener noreferrer">
                                 <h4>Linkedin</h4>
                                 <FontAwesomeIcon icon={faLinkedin} />
                             </a>
                         </li>
                         <li className='pr-3'>
-                            <a href='google.com' target='' rel=''>
+                            <a href='google.com' target="_blank" rel="noopener noreferrer">
                                 <h4> Twitter</h4>
                                 <FontAwesomeIcon icon={faTwitter} />
                             </a>
                         </li>
                         <li>
-                            <a href='dipboost.com' >
+                            <a href='https://github.com/njimbamI'target="_blank" rel="noopener noreferrer" >
                                 <h4>  Github</h4>
                                 <FontAwesomeIcon icon={faGithub} />
                             </a>
