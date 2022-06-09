@@ -15,7 +15,7 @@ const Contact = () => {
             <Navigation />
             <div className='contenu'>
                 <div className='flex flex-row justify-center items-center py-24'>
-                    <ul className='bg-black rounded-lg drop-shadow-2xl p-10'>
+                    <ul className='bg-black rounded-lg shadow-2xl shadow-white p-10'>
                     <h1 className='pb-5 text-center uppercase text-lg font-bold'>Contactez moi</h1>
                         <li> <FontAwesomeIcon className='px-2' icon={faMap} />Pontoise</li>
                         <li> <FontAwesomeIcon className='px-2' icon={faMobileAlt} />

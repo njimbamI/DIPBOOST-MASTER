@@ -5,7 +5,7 @@
 
  .card{  @apply text-black hover:text-white pb-8}
  .img{
-     @apply  rounded-full shadow-md w-32 shadow-black border-double border-4 border-indigo-400
+     @apply  rounded-full shadow-lg w-32 shadow-black border-double border-4 border-indigo-400
  }
 .bolo{
     @apply hover:translate-x-2 text-justify py-4

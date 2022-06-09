@@ -12,13 +12,13 @@ const Competences = () => {
                     <div className='bg-gradient-to-r from-cyan-500 to-blue-500  rounded-lg py-5'>
                         <h1 className='h1'>Années d'expériences</h1>
                         <ul>
-                            <li> Javascript <span> 50% </span></li>
-                            <li>  python</li>
-                            <li> css</li>
-                            <li> html</li>
-                            <li>php</li>
+                            <li> Javascript <span className='font-bold'> 50% </span></li>
+                            <li>  python <span> 50% </span></li>
+                            <li> css <span> 50% </span></li>
+                            <li> html<span> 50% </span></li>
+                            <li>php<span> 50% </span></li>
                         </ul>
-                        <h1 className='h1'>Frameworks et Bibliothéque</h1>
+                        <h1 className='text-center uppercase text-lg font-bold pt-8'>Frameworks et Bibliothéque</h1>
                         <ul className='text-center'>
                             <li>React</li>
                             <li>r</li>
@@ -40,7 +40,7 @@ const Competences = () => {
                             webpack 5.72.0 compiled with 1 warning in 308 ms</p>
                         </div>
 
-                        <h2 className='h1'>Developpeur</h2>
+                        <h2>Developpeur</h2>
                         <h3>2021 - 2022</h3>
                         <p>WARNING in src\pages\Competences.js
                             Line 35:28:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
@@ -51,7 +51,7 @@ const Competences = () => {
 
 
                     <div className='col-span-2 bg-gradient-to-r from-cyan-500 to-blue-500  rounded-lg py-5'>
-                        <h1 className='text-center mb-5'>Autres compétences</h1>
+                        <h1 className='text-center mb-5 font-bold uppercase'>Autres compétences</h1>
                         <div className='flex justify-around'>
                         <ul>
                             <li><FontAwesomeIcon icon={faCheckSquare} />Anglais courant</li>

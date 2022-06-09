@@ -16,8 +16,8 @@ const Navigation = () => {
                     <ul className='justify-center items-center'>
 
                         <li className='bolo'>
-                            <Link exact to="/" ><FontAwesomeIcon icon={faHome} />
-                                <span className='card'>Accueil</span>
+                            <Link className='card' exact to="/" ><FontAwesomeIcon icon={faHome} />
+                                Accueil
                             </Link>
                         </li>
                         <li className='bolo'><Link className='card' exact to="/Competences" ><FontAwesomeIcon icon={faMountain} /> Compétences</Link></li>
