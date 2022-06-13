@@ -41,7 +41,7 @@ const Navigation = () => {
                 </ul>
                
             </div>
-            <div> Njimbam - 2022</div>
+            <div> Njimbam - 2022 </div>
         </div>
 
     );

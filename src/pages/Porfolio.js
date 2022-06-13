@@ -28,7 +28,7 @@ const Porfolio = () => {
                     <img src='logo192.png' alt='l' />
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing
                     </p>
-                    <button onClick={handleClickOpen}><FontAwesomeIcon icon={faPlusCircle} className='animate-bounce' /></button>
+                    <button onClick={handleClickOpen}><FontAwesomeIcon icon={faPlusCircle} className='animate-bounce' />voir plus</button>
                     {
                         open && (
                             <div className=' rounded-lg text-center bg-white text-black'>
