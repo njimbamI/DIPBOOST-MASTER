@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faImage, faMountain, faUser, } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
@@ -13,7 +13,7 @@ const Navigation = () => {
             </div>
             <div>
                 <nav>
-                    <ul className='justify-center items-center'>
+                    <ul className='justify-center items-center text-xs md:text-base'>
 
                         <li className='bolo'>
                             <Link className='card' exact to="/" ><FontAwesomeIcon icon={faHome} />
@@ -27,7 +27,7 @@ const Navigation = () => {
                 </nav>
             </div>
             <div>
-                <ul className='flex items-center sm:grid-rows-none'>
+                <ul className='items-center hidden md:flex'>
                     <li>
                         <a href='https://www.linkedin.com/in/ibrahim-moubarak-njimbam-b8b286168/'  target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className='px-2 hover:text-white' icon={faLinkedin}/></a>
                     </li>
@@ -41,7 +41,7 @@ const Navigation = () => {
                 </ul>
                
             </div>
-            <div> Njimbam - 2022 </div>
+            <div className=' hidden md:flex'> Njimbam - 2022 </div>
         </div>
 
     );

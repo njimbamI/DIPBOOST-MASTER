@@ -1,10 +1,12 @@
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js}",
+  'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
+],
   theme: {
 
     extend: {
       animation :{
-        popup: 'popup 6s ease forwards',
+       popup: 'popup 6s ease forwards',
       } ,
       keyframes: {
        popup:  {
@@ -30,5 +32,7 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }
