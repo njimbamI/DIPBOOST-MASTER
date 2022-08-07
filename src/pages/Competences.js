@@ -6,9 +6,9 @@ import { faBookBookmark, faCheckSquare, faFutbolBall, faUserNinja } from '@forta
 const Competences = () => {
     return (
         <div>
-            <div className='flex'>
+            <div className='md:flex'>
                 <Navigation />
-                <div className='grid grid-cols-1 gap-1 ml-3 my-6 sm:grid-cols-3 w-4/5'>
+                <div className='grid grid-cols-1 gap-1 mx-auto my-6 sm:grid-cols-3 w-4/5 text-xs md:text-sm md:ml-2'>
                     <div className='bg-gradient-to-r from-cyan-500 to-blue-500  rounded-lg py-5'>
                         <h1 className='h1'>Années d'expériences</h1>
                         <div className='flex items-center justify-around'>
@@ -45,7 +45,7 @@ const Competences = () => {
                         </div>
                     </div>
 
-                    <div className='col-span-2 bg-gradient-to-r from-cyan-500 to-blue-500  rounded-lg py-5'>
+                    <div className='col-span-2 bg-gradient-to-r from-cyan-500 to-blue-500  rounded-lg p-5'>
                         <div className='mb-3'>
                             <h1 className='h1'>expériences</h1>
                             <h3>Octobre 2020 - Mai 2021</h3>

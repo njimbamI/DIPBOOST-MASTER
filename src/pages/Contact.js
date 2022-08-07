@@ -11,10 +11,10 @@ const Contact = () => {
 
 
     return (
-        <div className='flex '>
+        <div className='md:flex '>
             <Navigation />
             <div className='contenu'>
-                <div className='flex flex-row justify-center items-center py-24'>
+                <div className='flex flex-row justify-center items-center py-24 text-xs md:text-sm '>
                     <ul className='bg-black rounded-lg shadow-2xl shadow-white p-10'>
                     <h1 className='pb-5 text-center uppercase text-lg font-bold'>Contactez moi</h1>
                         <li> <FontAwesomeIcon className='px-2' icon={faMap} />Pontoise</li>

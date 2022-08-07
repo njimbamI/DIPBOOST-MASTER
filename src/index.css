@@ -3,19 +3,21 @@
 @tailwind utilities;
 
 
- .card{  @apply text-black hover:text-white pb-8}
+ .card{  @apply text-black hover:text-white pb-8
+}
  .img{
-     @apply  rounded-full shadow-lg w-32 shadow-black border-double border-4 border-indigo-400 
+     @apply  rounded-full shadow-lg w-32 shadow-black border-double border-4 border-indigo-400
  }
 .bolo{
-    @apply hover:translate-x-2 text-justify py-4
+    @apply hover:translate-x-2 text-justify py-4 px-4 md:px-0
 }
+
 .main{
-    @apply bg-gradient-to-r from-cyan-500 to-blue-500 rounded-3xl container mx-auto my-5 grid grid-rows-3 w-1/5 text-center justify-center items-center 
+    @apply bg-gradient-to-r from-cyan-500 to-blue-500 rounded-3xl container mx-auto my-5 grid grid-rows-1 md:grid-rows-3 text-center justify-center items-center md:w-1/5
     
 }
 .contenu{
-    @apply my-5 font-bold bg-gradient-to-l  text-white container ml-2 from-cyan-500 to-blue-500 rounded-3xl w-4/5 py-28
+    @apply my-5 font-bold bg-gradient-to-l  text-white container mx-auto from-cyan-500 to-blue-500 rounded-3xl w-4/5 py-28 md:ml-2
 }
 
 .h1{
