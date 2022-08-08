@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
- .card{  @apply text-black hover:text-white pb-8
+ .card{  @apply text-black pb-8
 }
  .img{
      @apply  rounded-full shadow-lg w-32 shadow-black border-double border-4 border-indigo-400
