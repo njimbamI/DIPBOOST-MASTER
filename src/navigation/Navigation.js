@@ -26,7 +26,6 @@ const Navigation = () => {
                     </ul>
                 </nav>
             </div>
-
             <div>
                 <ul className='items-center hidden md:flex'>
                     <li>
@@ -47,6 +46,6 @@ const Navigation = () => {
         </div>
 
     );
-};
+};   
 
 export default Navigation;
